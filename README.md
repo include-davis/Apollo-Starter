@@ -49,17 +49,18 @@ ESLint is an extension that ensures that your code adheres to certain code style
    ```json
    {
     "editor.codeActionsOnSave": {
-        "source.fixAll.eslint": true
+      "source.fixAll.eslint": "explicit"
     },
     "eslint.validate": [
-        "javascript"
+        "javascript",
     ],
     "[javascript]": {
         "editor.indentSize": 2
-    }, 
+    },
     "[prisma]": {
         "editor.indentSize": 2
-    }
+    },
+  }
    ```
 
 ## 3. Postgres
